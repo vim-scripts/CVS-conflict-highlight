@@ -1,0 +1,14 @@
+This is a mirror of http://www.vim.org/scripts/script.php?script_id=519
+
+I've created VIM syntax file for files where CVS
+found a conflict.
+
+Such files may be detected as containing such patterns:
+
+^<<<<<<< .*
+^=======$
+^>>>>>>> .*
+
+This syntax file highlights areas where CVS marked a
+conflict, resolve conflict until no highlighting is left :)
+
